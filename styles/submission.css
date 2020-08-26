@@ -1,0 +1,112 @@
+/*  
+    Spencer Williams-Waldemar
+    08/5/20
+    submission.css
+    CSS Styling for submission.php page  
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+}
+/* main background image */
+.page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)), url(../utils/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+
+}
+
+/* box and entry styling */
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(rgba(216, 211, 211, 0.637),
+    rgba(216, 211, 211, 0.637));
+    padding: 5px;
+    overflow: hidden;
+}
+
+/* form inputs */
+.input-group{
+    top: 30px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    
+
+}
+#date{
+    color: rgb(226, 226, 226);
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin:10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    outline: none;
+    background: transparent;
+    color: rgb(226, 226, 226);
+    
+}
+#sleep-quality{
+    color: rgb(226, 226, 226);
+}
+input::placeholder{
+    color:  rgb(226, 226, 226);
+}
+
+/* submit button */
+.submit-btn-box{
+    margin-top: 10px auto;
+}
+
+
+.submit-btn{
+    width: 85%;
+    padding:  10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 50px auto;
+    background: linear-gradient(to right, #80839c,#417ed8);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    
+    
+}
+
+.form-header-box{
+    background: linear-gradient(to right, #80839c,#417ed8);
+    width: 85%;
+    padding:  10px 30px;
+    display: block;
+    border: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.form-header{
+    margin: 20px auto;
+    
+}
+
+#input{
+    margin-top: 5px auto;
+    margin: auto;
+    width: 220px;
+    position: relative;
+    
+}
+

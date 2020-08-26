@@ -1,0 +1,123 @@
+/*  
+    Spencer Williams-Waldemar
+    08/5/20
+    home.css
+    CSS Styling for home.php page  
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)), url("../utils/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+
+}
+/* header box and text  */
+.home-header-box{
+    width: 80%;
+    height: 150px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px;
+    z-index: -1;
+    
+  
+}
+.header-box{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header-home-btn{
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    color: rgb(226, 226, 226);
+    background: transparent;
+    border: none;
+}
+
+
+/* description box and text */
+.description{
+    width: 85%;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 5px;
+    z-index: -1;
+    
+}
+.description-box{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.description-text{
+    top: 40%;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    text-shadow: #999;
+    color: rgb(226, 226, 226);
+    border-radius: 15px;
+    margin: 3% auto;
+}
+
+/* button references and text */
+.references{
+    width: 60%;
+    height: 100px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px;
+    z-index: -1;
+}
+.refaddnew-box{
+    width: 48%;
+    height: 100%;
+    float: left;
+    
+    
+}
+.refhistory-box{
+    width: 48%;
+    height: 100%;
+    float: right;
+    margin-left: 30px;
+    
+
+}
+
+/* FUTURE WORK ACCOUNT BUTTON  */
+/* .refaccount-box{
+    width: 32%;
+    height: 100%;
+    float: right;
+    
+} */
+
+.ref-btn{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(216, 211, 211, 0.637),
+    rgba(216, 211, 211, 0.637));
+    font-size: 20px;
+    text-shadow: #999;
+    color:rgb(226, 226, 226);
+    border-radius: 15px;
+}

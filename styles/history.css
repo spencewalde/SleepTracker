@@ -1,0 +1,43 @@
+/*  
+    Spencer Williams-Waldemar
+    08/5/20
+    history.css
+    CSS Styling for history.php page  
+*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  
+    
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)), url("../utils/background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    
+
+}
+
+#table-box{
+    
+    text-align: center;
+    transform: translate(100px,400px);
+    width: 900px; 
+    height: 500px;
+    z-index: -1;
+
+}
+/* FUTURE WORK */
+/* .curve-chart{
+    margin-left: 500px;
+    transform: translate(500px,500px);
+    z-index: 1;
+} */

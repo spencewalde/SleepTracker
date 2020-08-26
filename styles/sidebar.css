@@ -1,0 +1,100 @@
+/*  
+    Spencer Williams-Waldemar
+    08/5/20
+    sidebar.css
+    CSS Styling for sidebar.php on home.php,history.php,and submission.php  
+*/
+*{
+    list-style: none;
+    text-decoration: none;
+}
+/* main sidebar box */
+.sidebar{
+    position: fixed;
+    left: -275px;
+    width: 275px;
+    height: 100%;
+    background: #274b81;
+    transition: all .5s ease;
+    top: 0;
+   
+}
+/* header in the sidebar */
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #2d5694;
+    user-select: none;
+}
+/* ul box in the sidebar */
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size:20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .2s;
+    border-radius: 5px;
+}
+/* hover of the ul anchor tags */
+ul li:hover a{
+    padding-left: 50px;
+
+}
+/* for font awesome icon */
+.sidebar ul a i{
+    margin-right: 16px;
+
+}
+/* for checkbox  */
+#check{
+    display: none;
+}
+/* for the sibebar button and the cancel button */
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #274b81;
+    border-radius: 3px;
+}
+/* for the sidebar button */
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s ease;
+}
+/* for the sidebar cancel */
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #417ed8;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+/* toggled state to eliminate javascript */
+/* this moves the sidebar if cancel is clicked so sidebar is hidden */
+#check:checked ~ .sidebar{
+    left: 0;
+}
+/* if btn is clicked toggle btn */
+#check:checked ~ label #btn{
+    left: 275px;
+    opacity: 0;
+    pointer-events: none;
+}
+/* if cancel button is clicked then toggle button */
+#check:checked ~ label #cancel{
+    left: 220px;
+}
