@@ -1,4 +1,10 @@
 
+Web Programming - 344
+Prof - Shimin Li
+Individual Final Project
+
+I created a multi-page website that included a login/account creation, navigation bar, and hashed passwords stored in a SQL database.  This website was created to allow a user enter their nightly sleep and it would be recorded in a database.
+
 
 
        Final Project --- Spencer Williams-Waldemar --- 8/6/20
