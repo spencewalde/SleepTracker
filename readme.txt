@@ -1,4 +1,18 @@
 
+![](Videos/SNOOZE_Trim.mp4)
+
+
+
+
+
+
+
+
+
+
+
+
+
 Web Programming - 344
 Prof - Shimin Li
 Individual Final Project
