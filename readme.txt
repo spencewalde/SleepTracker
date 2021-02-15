@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 Web Programming - 344
 Prof - Shimin Li
 Individual Final Project
