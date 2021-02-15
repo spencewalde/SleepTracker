@@ -1,4 +1,4 @@
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/embed/rdPp4XPXqCg=rdPp4XPXqCg)
+[![Alt text](https://i9.ytimg.com/vi/rdPp4XPXqCg/mq2.jpg?sqp=CMClq4EG&rs=AOn4CLCJCgENVhZy7JFiNAFAdmHR1aPGtw)](https://www.youtube.com/embed/rdPp4XPXqCg=rdPp4XPXqCg)
 
 
 
