@@ -22,7 +22,7 @@ I created a multi-page website that included a login/account creation, navigatio
    -- style the pages in a more user friendly way
 
 
-                FUNCTIONS & FEATURES
+                # FUNCTIONS & FEATURES
 
 
 1: The login.php file allows the user to either login or register under the database
